@@ -13,7 +13,13 @@ window.SL_CONFIG = {
      ni des ventes. Ne pas publier tel quel : vider reviews/proof/compareAt ou les remplacer par des vrais. */
   prices: { 1: "39.99", 2: "69.99", 3: "99.99", 4: "119.99" },
   compareAt: "79.99",
-  links: { 1: "", 2: "", 3: "", 4: "" },
+  /* Stripe Payment Links — MODE TEST (aucun vrai débit). À remplacer par les liens live. Voir ../STRIPE-LIENS.md */
+  links: {
+    1: "https://buy.stripe.com/test_14A00lebL57v5Ag4Il6AM00",
+    2: "https://buy.stripe.com/test_5kQeVf2t3gQd9QwfmZ6AM01",
+    3: "https://buy.stripe.com/test_00wdRbebLczXgeUb6J6AM02",
+    4: "https://buy.stripe.com/test_00w9AVffPeI57Io0s56AM03"
+  },
   pixelId: "",
   videos: [
     { src: "video/b.mp4", poster: "video/b.jpg", label: "Two red stars on the road at night" },
